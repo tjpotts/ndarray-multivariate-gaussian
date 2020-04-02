@@ -1,0 +1,33 @@
+{
+  "name": "ndarray-multivariate-gaussian",
+  "version": "0.1.0",
+  "description": "Draw samples from a multi-variate gaussian distribution",
+  "main": "ndarray-multivariate-gaussian.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjpotts/ndarray-multivariate-gaussian.git"
+  },
+  "author": "Timothy Potts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjpotts/ndarray-multivariate-gaussian/issues"
+  },
+  "homepage": "https://github.com/tjpotts/ndarray-multivariate-gaussian#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.0",
+    "jest": "^25.2.6",
+    "jest-babel": "^1.0.1"
+  },
+  "dependencies": {
+    "gaussian": "^1.1.0",
+    "ndarray": "^1.0.19",
+    "ndarray-cholesky-factorization": "^1.0.2",
+    "ndarray-gemm": "^1.0.0",
+    "ndarray-ops": "^1.2.2",
+    "ndarray-squeeze": "^1.0.2",
+    "zeros": "^1.0.0"
+  }
+}
